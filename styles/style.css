@@ -67,6 +67,12 @@ p {
     padding: 120px 60px;
 }
 
+footer {
+    font-family: var(--default-font-family);
+    color: var(--main-color);
+    text-align: center;
+}
+
 @media (max-width: 960px) {
     h1 {
         font-size: 44px;
