@@ -20,7 +20,7 @@ h2 {
     font-size: 64px;
 }
 
-h4 {
+h3 {
     font-size: 46px;
     font-family: var(--heading-font-family);
 }
@@ -36,7 +36,7 @@ p {
 }
 
 .content-container {
-    padding: 160px 20px;
+    padding: 60px 20px;
 }
 
 
@@ -69,7 +69,7 @@ p {
 .main {
     background: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 
 .main p {
@@ -177,6 +177,12 @@ footer .contact-box p {
     margin: 0;
 }
 
+footer p a {
+    text-decoration: none;
+    color: var(--main-color);
+    transition: all 150ms ease-in-out;
+}
+
 @media (max-width: 960px) {
     h1 {
         font-size: 44px;
@@ -192,7 +198,7 @@ footer .contact-box p {
     }
 
     .main {
-        padding: 80px 20px;
+        padding: 40px 20px;
     }
     .project-description {
         padding: 0;
